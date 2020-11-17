@@ -18,7 +18,7 @@ In the GitHub repository for this project you will find all the resources necess
 There was an additional bonus option of adding a Gauge Chart to the page showing the weekly washing frequency of the test subjects.  I have not yet added that to the page, but plan on adding it in the coming days.
 
 ## Author
-John Loucks
-Email:  johnloucks@gmail.com
+John Loucks\
+Email:  johnloucks@gmail.com\
 GitHub:  https://github.com/loucksjohn
 
