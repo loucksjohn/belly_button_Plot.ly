@@ -11,5 +11,14 @@ In order to view the dashboard, you will need to navigate to WEBADDRESS in your 
 In the GitHub repository for this project you will find all the resources necessary for the creation of this dashboard.  Here's a quick rundow of those files and a brief explanation:
 * samples.json - the Belly Button Data Set from the Public Science Lab that contains all of the information regarding the individuals who participated in the study and the bacteria found in their belly button
 * index.html - is the the webpage framework that displays the interactive dashboard in the browser
+    * please note that within the index.html file you will find addtional outside sources.  Bootstrap is being referenced in the building of the webpage structure, D3 is being used as a source to manipulate the data in the files , and plot.ly is also being used as a source to help create the charts/graphs.
 * app.js - this is the javascript file that that is running in the HTML.  in app.js, I am reading in the 'samples.json' data and then manipulating it so that it can be used to create the Plot.ly charts.
+
+##  Other Notes
+There was an additional bonus option of adding a Gauge Chart to the page showing the weekly washing frequency of the test subjects.  I have not yet added that to the page, but plan on adding it in the coming days.
+
+## Author
+John Loucks
+Email:  johnloucks@gmail.com
+GitHub:  https://github.com/loucksjohn
 
