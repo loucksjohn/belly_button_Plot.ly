@@ -26,42 +26,37 @@ function mycharts(response){
         var sampleData = data.samples;
         var array = sampleData.filter(responseObject => responseObject.id == response);
         console.log(array)
-
+        
         var item = array[0]
-        console.log(item)
-        var sortedItem = item.sort((a,b) => b.sample_values - a.sample_values);
-        console.log(sortedItems)
-
-        var sample_values = item.sample_values
-        var otu_ids = item.otu_ids
-        var otu_labels = item.otu_labels
+        console.log(item)        
+       
+        var sample_values = item.sample_values.slice(0,10).reverse()
+        var otu_ids = item.otu_ids.slice(0,10).reverse()
+        var otu_labels = item.otu_labels.slice(0,10).reverse()
         console.log(sample_values);
         console.log(otu_ids);
         console.log(otu_labels);
 
-        var trace1 = {
+        var trace1 = [{
             type: "bar",
             orientation: "h",
             x: sample_values,
-            y: otu_ids,
+            y: otu_ids.map(each => `OTU ${each}`),
             text: otu_labels
-        };
+        }];
 
-        var chartData = [trace1]
+        
 
         var layout = {
             title: "belly button bacteria",
-            margin: {
-                l: 100,
-                r: 100,
-                t: 100,
-                b: 100    
+               
             }
-        };
-        Plotly.newPlot("bar", chartData, layout);
+        
+        Plotly.newPlot("bar", trace1, layout);
+    });
 
 
-    })
+    
 }
 
 
@@ -88,6 +83,7 @@ function init(){
 
 function onChange(newsample){
     demoBox(newsample);
+    mycharts(newsample);
 }
 
 init();
