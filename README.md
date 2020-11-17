@@ -4,6 +4,10 @@ plotly homework assignment #15
 ## Description
 This Belly Button Plot.ly project creates an interactive dashboard that allows the user to analyze the microbial portrait of each test's subject navel (belly button).  In 2011, the Public Science Lab at NC State began a study into the microbes that inhabit the human belly button, and the data supplied for this dashboard came directly out of that study.
 
+![B3](https://github.com/loucksjohn/belly_button_Plot.ly/blob/main/microbes-sem.jpg?raw=true)
+
+
+
 ## Operating Instructions
 In order to view the dashboard, you will need to navigate to WEBADDRESS in your internet browser.  Once the site has loaded, you can select individual test subjects in the drop-down menu that is on the top left-hand side of the page.  The site will come pre-loaded with the information for ID# 940, and every time you select a new Test Subject ID number, the charts and Demographic Info will update based on the ID that was selected.
 
