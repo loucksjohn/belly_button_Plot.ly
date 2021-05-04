@@ -4,7 +4,7 @@
 ## Description
 This Belly Button Plot.ly project creates an interactive dashboard that allows the user to analyze the microbial portrait of each test's subject navel (belly button).  In 2011, the Public Science Lab at NC State began a study into the microbes that inhabit the human belly button, and the data supplied for this dashboard came directly out of that study.
 
-![B3](https://github.com/loucksjohn/belly_button_Plot.ly/blob/main/microbes-sem.jpg?raw=true)
+![B3](https://github.com/loucksjohn/belly_button_Plot.ly/blob/main/Resources/microbes-sem.jpg?raw=true)
 
 
 
